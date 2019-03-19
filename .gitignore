@@ -72,6 +72,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Compiled Caphe
+.temp.compiled
+
 # pyenv
 .python-version
 
@@ -102,3 +105,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Pickled files
+*.pkl
+
+# mnist data
+mnist_data
