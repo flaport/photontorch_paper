@@ -1,0 +1,28 @@
+# Figure
+figure.facecolor: white
+figure.edgecolor: white
+figure.figsize : 3.5,2.2
+
+# Text
+font.size : 9
+text.color: 555555
+axes.labelcolor: 555555
+font.family        : sans-serif
+text.usetex        : True
+
+# Plots
+lines.color: grey
+lines.linewidth : 1
+patch.edgecolor: grey
+
+# Other
+grid.color: grey
+xtick.color: grey
+ytick.color: grey
+axes.edgecolor: grey
+axes.facecolor: white
+lines.markersize : 5
+
+
+
+axes.prop_cycle : cycler('color', ['d62728', '1f77b4', '2ca02c', 'bcbd22', '17becf', 'ff7f0e', '9467bd', '8c564b', 'e377c2', '7f7f7f'])
