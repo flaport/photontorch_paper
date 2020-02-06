@@ -1,10 +1,16 @@
+*photontorch is now open-source on GitHub: http://github.com/flaport/photontorch*
+
 # photontorch_paper
-Data and visualizations for the photontorch paper (Scientific Reports, submitted)
+
+Laporte, Floris, Joni Dambre, and Peter Bienstman. *"Highly parallel simulation
+and optimization of photonic circuits in time and frequency domain based on the
+deep-learning framework PyTorch."* Scientific reports 9.1 (2019): 5918.
+
 
 ## Optimization Simulations
 ### CROW optimization
 * [filter_design.ipynb](optimization/filter_design.ipynb): notebook that optimizes the CROW.
-* [crow folder](optimization/crow): folder containing the losses during training and the final band-pass filter obtained byt the CROW optimization 
+* [crow folder](optimization/crow): folder containing the losses during training and the final band-pass filter obtained byt the CROW optimization
 
 ### Reservoir optimization
 * [xor_swirl.ipynb](optimization/xor_swirl.ipynb): notebook that optimizes a single reservoir to perform the XOR on bits in a bit stream.
@@ -26,8 +32,8 @@ Data and visualizations for the photontorch paper (Scientific Reports, submitted
 
 ### Photontorch CROW
 * [frequency_domain_single_wl_num_rings_sweep.ipynb](performance/PhotontorchCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.ipynb): notebook measuring the time of simulation of a CROW with Photontorch in the frequency domain
-* [frequency_domain_single_wl_num_rings_sweep.csv](performance/PhotontorchCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.csv): recorded times for the simulation of a CROW in Photontorch in the frequency domain. 
-* [frequency_domain_single_wl_num_rings_sweep_cuda.csv](performance/PhotontorchCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep_cuda.csv): recorded times for the simulation of a CROW with Photontorch in the frequency domain using a GPU. 
+* [frequency_domain_single_wl_num_rings_sweep.csv](performance/PhotontorchCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.csv): recorded times for the simulation of a CROW in Photontorch in the frequency domain.
+* [frequency_domain_single_wl_num_rings_sweep_cuda.csv](performance/PhotontorchCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep_cuda.csv): recorded times for the simulation of a CROW with Photontorch in the frequency domain using a GPU.
 * [time_domain_wl_sweep_num_rings_sweep.ipynb](performance/PhotontorchCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_wl_sweep_num_rings_sweep.ipynb): notebook measuring the time of simulation of a CROW with Photontorch in the time domain for varying number of wavelengths
 * [time_domain_3000_wl_sweep_num_rings_sweep.csv](performance/PhotontorchCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_3000_wl_sweep_num_rings_sweep.csv): recorded times for the simulation of a CROW with Photontorch in the time domain for multiple wavelengths.
 * [time_domain_3000_wl_sweep_num_rings_sweep_cuda.csv](performance/PhotontorchCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_3000_wl_sweep_num_rings_sweep_cuda.csv): recorded times for the simulation of a CROW with Photontorch in the time domain for multiple wavelengths.
@@ -37,11 +43,11 @@ Data and visualizations for the photontorch paper (Scientific Reports, submitted
 
 ### Caphe CROW
 * [frequency_domain_single_wl_num_rings_sweep.ipynb](performance/CapheCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.ipynb): notebook measuring the time of simulation of a CROW with Caphe in the frequency domain
-* [frequency_domain_single_wl_num_rings_sweep.csv](performance/CapheCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.csv): recorded times for the simulation of a CROW with Caphe in the frequency domain. 
+* [frequency_domain_single_wl_num_rings_sweep.csv](performance/CapheCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.csv): recorded times for the simulation of a CROW with Caphe in the frequency domain.
 * [time_domain_wl_sweep_num_rings_sweep.ipynb](performance/CapheCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_wl_sweep_num_rings_sweep.ipynb): notebook measuring the time of simulation of a CROW with Caphe in the time domain for varying number of wavelengths
 * [time_domain_3000_wl_sweep_num_rings_sweep.csv](performance/CapheCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_3000_wl_sweep_num_rings_sweep.csv): recorded times for the simulation of a CROW with Caphe in the time domain for multiple wavelengths.
 
 ### Interconnect CROW
-* [sample_crow_511_rings.icp](performance/InterconnectCrow/sample_crow_511_rings.icp): sample interconnect CROW simulation file (in this case with 511 rings) used for performance measurements. 
+* [sample_crow_511_rings.icp](performance/InterconnectCrow/sample_crow_511_rings.icp): sample interconnect CROW simulation file (in this case with 511 rings) used for performance measurements.
 * [frequency_domain_single_wl_num_rings_sweep.csv](performance/InterconnectCrow/frequency_domain_single_wl_num_rings_sweep/frequency_domain_single_wl_num_rings_sweep.csv): recorded times for the simulation of a CROW with Interconnect in the frequency domain.
 * [time_domain_3000_wl_sweep_num_rings_sweep.csv](performance/InterconnectCrow/time_domain_wl_sweep_num_rings_sweep/time_domain_3000_wl_sweep_num_rings_sweep.csv): recorded times for the simulation of a CROW with Interconnect in the time domain for multiple wavelengths.
