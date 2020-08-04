@@ -6,6 +6,12 @@ Laporte, Floris, Joni Dambre, and Peter Bienstman. *"Highly parallel simulation
 and optimization of photonic circuits in time and frequency domain based on the
 deep-learning framework PyTorch."* Scientific reports 9.1 (2019): 5918.
 
+# Photontorch has evolved...
+The Photontorch API has evolved since the writing of this paper. Most of the notebooks won't run with the newest photontorch version. 
+To run the notebooks in this repository, install photontorch via the `photontorch_paper` branch:
+```
+pip install git+https://github.com/flaport/photontorch.git@photontorch_paper
+```
 
 ## Optimization Simulations
 ### CROW optimization
